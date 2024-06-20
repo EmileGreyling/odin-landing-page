@@ -152,6 +152,13 @@ nav li {
     border-radius: 8px;
 }
 
+#footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 30px;
+    text-align: center;
+}
+
 .primary-text {
     color: #f9faf8;
 }
