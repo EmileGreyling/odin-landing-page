@@ -13,7 +13,8 @@ nav,
 
 nav,
 #hero,
-#information {
+#information,
+#cta {
     padding-left: 15%;
     padding-right: 15%;
 }
@@ -39,6 +40,11 @@ nav li {
     align-items: center;
 }
 
+#nav-links a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
 #hero {
     display: flex;
     justify-content: space-between;
@@ -56,7 +62,7 @@ nav li {
 
 #hero button {
     background-color: #3882f6;
-    padding: 10px 30px;
+    padding: 7px 30px;
     margin-top: 10px;
     color: #f9faf8;
     border: none;
@@ -73,7 +79,7 @@ nav li {
 #information h1 {
     font-size: 36px;
     font-weight: 900;
-    color: #1F2937;
+    color: #1f2937;
     text-align: center;
     margin-bottom: 45px;
 }
@@ -104,9 +110,10 @@ nav li {
 }
 
 #quote {
-    background-color: #E5E7EB;
-    color: #1F2937;
+    background-color: #e5e7eb;
+    color: #1f2937;
     padding: 100px 20%;
+    margin-bottom: 100px;
 }
 
 #quote p {
@@ -115,10 +122,34 @@ nav li {
     font-style: italic;
 }
 
-
 #quote footer {
     text-align: end;
     font-weight: bold;
+}
+
+#cta {
+    margin-bottom: 100px;
+}
+
+#cta-container {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+    padding: 50px 100px;
+}
+
+#cta button {
+    margin-left: auto;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    padding: 7px 30px;
+    margin-top: 10px;
+    color: #f9faf8;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 8px;
 }
 
 .primary-text {
@@ -126,6 +157,6 @@ nav li {
 }
 
 .secondary-text {
-    color: #E5E7EB;
+    color: #e5e7eb;
     font-size: 18px;
 }
