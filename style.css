@@ -81,7 +81,7 @@ nav li {
 .info-container {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 45px;
+    margin-bottom: 100px;
 }
 
 .info-item {
@@ -103,11 +103,29 @@ nav li {
     text-align: center;
 }
 
+#quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 100px 20%;
+}
+
+#quote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+#quote footer {
+    text-align: end;
+    font-weight: bold;
+}
+
 .primary-text {
     color: #f9faf8;
 }
 
 .secondary-text {
-    color: #e5e7eb;
+    color: #E5E7EB;
     font-size: 18px;
 }
